@@ -17,7 +17,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Butterfly\\Adapter\\Sf2EventDispatcher\\": "src/"
+            "Butterfly\\Adapter\\Sf2EventDispatcher\\": "src/",
+            "Butterfly\\Adapter\\Sf2EventDispatcher\\Tests\\": "tests/unit/"
         }
     }
 }
