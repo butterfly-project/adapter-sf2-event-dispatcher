@@ -1,0 +1,24 @@
+{
+    "name": "butterfly/adapter-sf2-event-dispatcher",
+    "type": "library",
+    "description": "Butterfly PHP. Sf2 EventDispatcher Adapter",
+    "keywords": ["event-dispatcher"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Fakhertdinov",
+            "email": "marat.fakhertdinov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+
+        "symfony/event-dispatcher": "2.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Butterfly\\Adapter\\Sf2EventDispatcher\\": "src/",
+            "Butterfly\\Adapter\\Sf2EventDispatcher\\Tests\\": "tests/"
+        }
+    }
+}

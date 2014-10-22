@@ -1,0 +1,7 @@
+bfy_adapter.event_dispatcher.handlers: []
+
+services:
+
+  bfy_adapter.event_dispatcher:
+    class: 'Butterfly\Adapter\Sf2EventDispatcher\EventDispatcher'
+    calls: %bfy_adapter.event_dispatcher.handlers%
