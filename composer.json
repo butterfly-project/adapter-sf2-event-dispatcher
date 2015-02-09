@@ -13,12 +13,12 @@
     "require": {
         "php": ">=5.3.3",
 
-        "symfony/event-dispatcher": "2.5.*"
+        "symfony/event-dispatcher": "2.6.*"
     },
     "autoload": {
         "psr-4": {
             "Butterfly\\Adapter\\Sf2EventDispatcher\\": "src/",
-            "Butterfly\\Adapter\\Sf2EventDispatcher\\Tests\\": "tests/"
+            "Butterfly\\Adapter\\Sf2EventDispatcher\\Tests\\": "tests/unit/"
         }
     }
 }
